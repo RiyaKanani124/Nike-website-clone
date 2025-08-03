@@ -1,0 +1,159 @@
+/* Container for the cart */
+.cart {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for the cart */
+.cart h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Message for empty cart */
+.cart p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* List of cart items */
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual cart item */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart item image */
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Cart item details */
+.cart-item-details {
+  flex: 1;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cart item title */
+.cart-item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Cart item price */
+.cart-item-price {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Container for quantity and buttons */
+.cart-item-quantity-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* Cart item quantity */
+.cart-item-quantity {
+  font-size: 1rem;
+  color: #333;
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* Quantity buttons for cart items */
+.quantity-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+  background-color: #45a049;
+}
+
+/* Special styling for -1 button when quantity is 1 */
+.quantity-button.remove-button {
+  background-color: #ff6666;
+}
+
+.quantity-button.remove-button:hover {
+  background-color: #cc0000;
+}
+
+/* Cart item actions (like remove button) */
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* Remove button for cart items */
+.remove-button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #ff6666;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #cc0000;
+}
+
+/* Total price section */
+.total-price {
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Checkout button */
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #45a049;
+}

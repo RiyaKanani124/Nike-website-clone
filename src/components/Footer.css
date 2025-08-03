@@ -1,0 +1,120 @@
+
+.footer {
+    background-color: #f9f9f9;
+    color: #0b0b0b;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section.stay-connected {
+    grid-column: span 2; 
+    text-align: left; 
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+     
+  }
+  
+  .footer-section ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li:hover {
+    color: #060606;
+  }
+  
+  .footer-section p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #0b0b0b;
+  }
+  
+  .email-subscribe {
+    display: flex;
+    align-items: center;
+    max-width: 300px; 
+    margin-bottom: 10px;
+  }
+  
+  .email-subscribe input[type="email"],
+  .email-subscribe button {
+    padding: 8px; 
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .email-subscribe input[type="email"] {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .email-subscribe button {
+    background-color: #020910;
+    color: #dacaca;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #5b5656;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    grid-column: span 4; 
+  }
+  
+  .footer-bottom hr {
+    border-color: #666;
+    margin-bottom: 10px; 
+  }
+  
+  .footer-bottom .copyright {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }

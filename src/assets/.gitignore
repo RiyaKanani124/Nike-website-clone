@@ -1,0 +1,13 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore logs and environment settings
+*.log
+.env
+
+# Ignore system files
+.DS_Store
+
+# Optional: ignore local build if your live site is deployed via GitHub Pages or Vercel/Netlify
+# Comment out the next line if you want to KEEP build in GitHub
+# build/
